@@ -1,4 +1,5 @@
-# natting
+# Natting - MASQUERADE
+  Masquerade helps to share internet one system to another system
 ## Install iptables-persistent
 ```sudo apt install iptables-persistent ```
 ## natting command
