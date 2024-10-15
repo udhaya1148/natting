@@ -18,6 +18,7 @@ sudo iptables-save
   sudo su - 
 ```
 ## save command
-```iptables-save >> /etc/iptables/rules.v4 
+```
+iptables-save >> /etc/iptables/rules.v4 
     iptables-save
 ```
