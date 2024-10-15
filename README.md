@@ -6,7 +6,7 @@ sudo apt install iptables-persistent
  ```
 ## natting command
 ```
-sudo iptables -t nat -A POSTROUTING -o wlp0s20f3 -j MASQUERADE
+sudo iptables -t nat -A POSTROUTING -o <wifi interface name or interface which have internet connection -j MASQUERADE
 ```
 ## Save natting config
 ```
@@ -20,5 +20,7 @@ sudo iptables-save
 ## save command
 ```
 iptables-save >> /etc/iptables/rules.v4 
-    iptables-save
+iptables-save
 ```
+
+## set ip address, gatewave, subnet to wired interface
