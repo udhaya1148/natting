@@ -1,14 +1,23 @@
 # Natting - MASQUERADE
   Masquerade helps to share internet one system to another system
 ## Install iptables-persistent
-```sudo apt install iptables-persistent ```
+```
+sudo apt install iptables-persistent
+ ```
 ## natting command
-```sudo iptables -t nat -A POSTROUTING -o wlp0s20f3 -j MASQUERADE```
+```
+sudo iptables -t nat -A POSTROUTING -o wlp0s20f3 -j MASQUERADE
+```
 ## Save natting config
-```sudo iptables-save```
+```
+sudo iptables-save
+```
 # Save permanent natting conig 
 ## switch user to root
-```sudo su - ```
+```
+  sudo su - 
+```
 ## save command
-```iptables-save >> /etc/iptables/rules.v4 ```
-```iptables-save```
+```iptables-save >> /etc/iptables/rules.v4 
+    iptables-save
+```
