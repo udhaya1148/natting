@@ -22,5 +22,8 @@ sudo iptables-save
 iptables-save >> /etc/iptables/rules.v4 
 iptables-save
 ```
-
+## natting list
+```
+sudo iptables -t nat -L
+```
 ## set ip address, gatewave, subnet to wired interface
